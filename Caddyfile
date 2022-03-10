@@ -2,6 +2,10 @@ spir.fantastiskefroe.dk {
 	respond "You've reached spir.fantastiskefroe.dk"
 }
 
+portainer.spir.fantastiskefroe.dk {
+    reverse_proxy localhost:9000
+}
+
 ingest.spir.fantastiskefroe.dk {
     reverse_proxy spir-ingest:8080
 }
