@@ -3,7 +3,7 @@ spir.fantastiskefroe.dk {
 }
 
 portainer.spir.fantastiskefroe.dk {
-    reverse_proxy localhost:9000
+    reverse_proxy portainer:9000
 }
 
 ingest.spir.fantastiskefroe.dk {
