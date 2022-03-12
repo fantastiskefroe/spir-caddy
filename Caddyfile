@@ -1,5 +1,5 @@
 spir.fantastiskefroe.dk {
-	respond "You've reached spir.fantastiskefroe.dk"
+	reverse_proxy spir-app:80
 }
 
 portainer.spir.fantastiskefroe.dk {
@@ -7,6 +7,5 @@ portainer.spir.fantastiskefroe.dk {
 }
 
 ingest.spir.fantastiskefroe.dk {
-    reverse_proxy spir-ingest:8080
+	reverse_proxy spir-ingest:8080
 }
-
