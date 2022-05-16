@@ -9,3 +9,7 @@ portainer.spir.fantastiskefroe.dk {
 ingest.spir.fantastiskefroe.dk {
 	reverse_proxy spir-ingest:8080
 }
+
+qr.spir.fantastiskefroe.dk {
+	reverse_proxy spir-qr:80
+}
