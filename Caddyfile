@@ -13,3 +13,7 @@ ingest.spir.fantastiskefroe.dk {
 qr.spir.fantastiskefroe.dk {
 	reverse_proxy spir-qr:80
 }
+
+products.spir.fantastiskefroe.dk {
+	reverse_proxy spir-products:80
+}
