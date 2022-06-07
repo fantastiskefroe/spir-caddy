@@ -22,3 +22,7 @@ products.spir.fantastiskefroe.dk {
 havejournal.dk {
 	reverse_proxy havejournal:80
 }
+
+staldhiphop.dk {
+	reverse_proxy staldhiphop:80
+}
