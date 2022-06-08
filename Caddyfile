@@ -19,7 +19,7 @@ products.spir.fantastiskefroe.dk {
 }
 
 
-havejournal.spir.fantastiskefroe.dk {
+www.havejournal.dk, havejournal.dk {
 	reverse_proxy havejournal:80
 }
 
