@@ -23,6 +23,6 @@ havejournal.dk {
 	reverse_proxy havejournal:80
 }
 
-staldhiphop.dk {
+www.staldhiphop.dk, staldhiphop.dk {
 	reverse_proxy staldhiphop:80
 }
