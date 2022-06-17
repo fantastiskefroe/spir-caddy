@@ -15,8 +15,8 @@ products.spir.fantastiskefroe.dk {
 }
 
 
-www.havejournal.dk, havejournal.dk {
-	reverse_proxy havejournal:80
+havejournal.dk {
+	respond "Siden er under opbygning..."
 }
 
 www.staldhiphop.dk, staldhiphop.dk {
