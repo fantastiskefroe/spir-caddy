@@ -11,7 +11,7 @@ qr.spir.fantastiskefroe.dk {
 }
 
 overview.spir.fantastiskefroe.dk {
-	reverse_proxy spir-qr:80
+	reverse_proxy spir-overview:80
 }
 
 products.spir.fantastiskefroe.dk {
