@@ -10,6 +10,10 @@ qr.spir.fantastiskefroe.dk {
 	reverse_proxy spir-qr:80
 }
 
+overview.spir.fantastiskefroe.dk {
+	reverse_proxy spir-qr:80
+}
+
 products.spir.fantastiskefroe.dk {
 	reverse_proxy spir-products:80
 }
