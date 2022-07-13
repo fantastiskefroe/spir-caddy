@@ -7,7 +7,7 @@ ingest.spir.fantastiskefroe.dk {
 }
 
 qr.spir.fantastiskefroe.dk {
-	reverse_proxy spir-qr:80
+	reverse_proxy spir-qr:8043
 }
 
 overview.spir.fantastiskefroe.dk {
